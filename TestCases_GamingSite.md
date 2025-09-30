@@ -1,4 +1,4 @@
-# Test Cases for Simple Gaming Website
+# Test Cases for Gaming Website
 
 **Feature:** User Access and Content Loading
 **Scope:** Login/Registration and Core Game Content Viewing.
