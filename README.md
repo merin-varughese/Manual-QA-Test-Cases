@@ -1,10 +1,11 @@
-# E-Commerce Checkout Process Test Cases
+# Test Case Documentation Repository
 
-This repository contains a sample set of manual test cases for a standard **e-commerce checkout flow**.
+This repository serves as a portfolio of various **manual testing documents** demonstrating proficiency in test design and structured quality assurance practices across different domains and applications.
 
-These documents demonstrate proficiency in:
-* Designing detailed and structured test cases.
-* Covering positive (happy path), negative (error handling), and edge cases.
-* Ensuring traceability of requirements (implied in the Test Cases).
+The included documents showcase expertise in:
 
-**Sample Application:** A hypothetical e-commerce website with a typical shopping cart and payment process.
+* **Structured Test Design:** Creating detailed, easy-to-follow test steps and validation criteria.
+* **Comprehensive Coverage:** Designing cases that cover **positive (happy path), negative (error handling), boundary, and specialized** scenarios (e.g., Security, Data Integrity).
+* **Traceability:** Ensuring clear linkage between business requirements (implied) and test execution.
+
+---
