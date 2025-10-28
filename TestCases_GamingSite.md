@@ -4,7 +4,7 @@
 **Scope:** Login/Registration and Core Game Content Viewing.
 
 | TC ID | Test Scenario | Pre-condition | Test Step | Expected Result | Pass/Fail | Notes |
-| :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
+| :--- | :--- | :--- | :--- | :--- | :--- | :--- |
 | **G-001** | **Successful user login and authentication.** | User has valid, verified credentials. | 1. Navigate to the login page. <br> 2. Enter valid Username and Password. <br> 3. Click 'Sign In'. | User is successfully authenticated and redirected to the **Main Dashboard**. | | **Happy Path** |
 | **G-002** | **Attempting to log in with a missing required field.** | User attempts to log in with an email address but no password. | 1. Navigate to the login page. <br> 2. Enter a valid email address. <br> 3. Leave the 'Password' field blank. <br> 4. Click 'Sign In'. | An immediate, clear **validation error message** (e.g., "Password is required") appears next to the password field. | | **Missing Field** |
 | **G-003** | **Verifying load time for the largest asset/page.** | None. | 1. Click on the game thumbnail for the largest game file available. <br> 2. Wait for the game details page to load. | The page loads within **3 seconds**. All content displays correctly without placeholders. | |  |
