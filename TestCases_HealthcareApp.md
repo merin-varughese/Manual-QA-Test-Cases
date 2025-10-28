@@ -3,7 +3,7 @@
 **Feature:** Viewing and Editing Patient Data
 **Scope:** Access control, data validation, and sensitive information display.
 
-| TC ID | Test Type | Pre-conditions | Test Step | Expected Result | Pass/Fail | Notes |
+| TC ID | Test Type | Scenario | Test Step | Expected Result | Pass/Fail | Notes |
 | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
 | **H-001** | Positive (Data View) | Authorized Physician is logged in. Patient record is active. | 1. Select patient and navigate to the 'Medications' tab. <br> 2. View the list of active prescriptions. | All active prescriptions (Drug Name, Dosage, Start/End Date) are displayed and match the **latest record stored in the database**. | |  |
 | **H-002** | Negative (HIPAA/Security) | Unauthorized User (e.g., Hospital Admin without patient privileges) is logged in. | 1. Attempt to access a patient's **Social Security Number (SSN)** field directly via URL manipulation or database query attempt. | The field is **masked** on the UI, and the direct data access attempt is rejected, resulting in a **"Permission Denied"** server error logged in the security audit. | | |
