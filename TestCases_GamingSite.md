@@ -3,7 +3,7 @@
 **Feature:** User Access and Content Loading
 **Scope:** Login/Registration and Core Game Content Viewing.
 
-| TC ID | Test Type | Pre-conditions | Test Step | Expected Result | Pass/Fail | Notes |
+| TC ID | Test Type | Scenario | Test Step | Expected Result | Pass/Fail | Notes |
 | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
 | **G-001** | Positive | User has valid, verified credentials. | 1. Navigate to the login page. <br> 2. Enter valid Username and Password. <br> 3. Click 'Sign In'. | User is successfully authenticated and redirected to the **Main Dashboard** or **Game Selection** page. | | **Happy Path** |
 | **G-002** | Negative | User attempts to log in with an email address but no password. | 1. Navigate to the login page. <br> 2. Enter a valid email address. <br> 3. Leave the 'Password' field blank. <br> 4. Click 'Sign In'. | An immediate, clear **validation error message** (e.g., "Password is required") appears next to the password field. User remains on the login screen. | | **Missing Required Field** |
