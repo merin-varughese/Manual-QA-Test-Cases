@@ -3,7 +3,7 @@
 **Feature:** Checkout Process
 **Scope:** From clicking "Proceed to Checkout" to "Order Confirmation."
 
-| TC ID | Test Type | Pre-conditions | Test Step | Expected Result | Pass/Fail | Notes |
+| TC ID | Test Type | Scenario | Test Step | Expected Result | Pass/Fail | Notes |
 | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
 | **C-001** | Positive | Item(s) in cart. User logged in. | 1. Click 'Proceed to Checkout'. <br> 2. Fill all required shipping fields with valid data. <br> 3. Select 'Credit Card' and input valid details. <br> 4. Click 'Place Order'. | User is redirected to the **Order Confirmation** page. An order number is displayed. Confirmation email is sent. | | **Happy Path** |
 | **C-002** | Negative | Item(s) in cart. User not logged in. | 1. Click 'Proceed to Checkout'. <br> 2. Leave **'Shipping Address Line 1'** blank. <br> 3. Fill other fields with valid data. <br> 4. Click 'Continue/Next Step'. | An immediate, clear **validation error message** appears for the missing field. User is prevented from proceeding. | | **Error Handling** |
