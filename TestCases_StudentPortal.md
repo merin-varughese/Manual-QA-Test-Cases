@@ -3,7 +3,7 @@
 **Feature:** Course Registration and Schedule Viewing
 **Scope:** Course search, enrollment, and schedule stability.
 
-| TC ID | Test Type | Pre-conditions | Test Step | Expected Result | Pass/Fail | Notes |
+| TC ID | Test Type | Scenario | Test Step | Expected Result | Pass/Fail | Notes |
 | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
 | **S-001** | Positive | Student is logged in and has no holds on their account. | 1. Search for an available course (e.g., 'Math 101'). <br> 2. Click 'Enroll'. <br> 3. Confirm enrollment. | The student receives an **immediate confirmation message**, and the course appears instantly in their **'My Schedule'** view. | | **Happy Path** |
 | **S-002** | Negative | Student is attempting to enroll in a course that is currently full (Capacity = 30; Enrolled = 30). | 1. Search for the full course. <br> 2. Click 'Enroll'. | The system displays a clear message stating **"Course is Full" or "Waitlist Only"**. Enrollment is blocked. | | **Capacity Constraint** |
